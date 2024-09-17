@@ -1,0 +1,978 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>OfERR - Organisation for Eelam Refugees,Rehabilitation</title>
+
+    <link rel="icon" href="images/logo.png" />
+    <!-- CSS FILES -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+    <link href="css/oferr.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet"> 
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+    <!--
+
+TemplateMo 581 Kind Heart Charity
+https://templatemo.com/tm-581-kind-heart-charity-->
+
+<style>
+/* ==============================================Header & Heading Style Starts======================================*/
+    .navbar-nav .nav-link.active, .navbar-nav .nav-link:hover {
+        color: #875350 !important;
+    }
+    .site-header {
+      background: #885350;
+    }
+    h5 {
+      color: #875350 !important;
+    }
+    .counter-number, .counter-number-text {
+        color: #875350;
+    }
+    .cta-section::before {
+        background-color: #875350;
+    }
+/* ==============================================Header & Heading Style Ends======================================*/
+    .cause-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .cause-img img{
+        width: 100%;
+        height: auto;
+        margin: 10px;
+        border-radius: 20px;
+        filter: brightness(0.5);
+        position: relative;
+    }
+    .cause-img h3{
+        position: absolute;
+        z-index: 15;
+        color: white;
+        text-align: center;
+        width: 200px;
+    }
+    .cause-img img:hover{
+        filter: none;
+    }
+
+    .modal.show .modal-dialog {
+        transform: none;
+        padding: 20px;
+        text-align: justify;
+    }
+    .modal-footer {
+        justify-content: center !important;
+    }
+    .btn-secondary {
+        color: #fff;
+        background-color: #3594e9 !important;
+        border-color: #6c757d;
+    }
+    .modal-content {
+        border-radius: 20px !important;
+    }
+    .modal-dialog p {
+        font-style: italic;
+        font-weight: 400;
+        color: black;
+    }
+    .modal-dialog img {
+        width: 300px;
+        height: auto;
+        margin: 0px  10px;
+        border-radius:20px;
+        float: left;
+    }
+    /* Popupstyle */
+    .modal {
+    --bs-modal-width: 1000px !important;
+    }
+</style>
+
+</head>
+
+<body id="section_1">
+
+<!-- ====================================================================================Header Starts======================================================================================-->
+<header class="site-header">
+  <div class="container">
+      <div class="row">
+
+          <div class="col-lg-8 col-12 d-flex flex-wrap">
+              <p class="d-flex me-4 mb-0">
+                  <i class="bi-geo-alt me-2"></i>
+                  No 2B, Jeyawardena Place, Off-Hill Street, Dehiwala
+              </p>
+
+              <p class="d-flex mb-0">
+                  <i class="bi-envelope me-2"></i>
+
+                  <a href="mailto:oferrceylon@gmail.com">
+                      oferrceylon@gmail.com
+                  </a>
+              </p>
+          </div>
+
+          <div class="col-lg-3 col-12 ms-auto d-lg-block d-none">
+              <ul class="social-icon">
+                  <li class="social-icon-item">
+                      <a href="https://twitter.com/OfERRCeylon" class="social-icon-link bi-twitter"></a>
+                  </li>
+
+                  <li class="social-icon-item">
+                      <a href="https://www.facebook.com/sinnathamby.sooriyakumary" class="social-icon-link bi-facebook"></a>
+                  </li>
+
+                  <!-- <li class="social-icon-item">
+                      <a href="#" class="social-icon-link bi-instagram"></a>
+                  </li> -->
+
+                  <li class="social-icon-item">
+                      <a href="https://www.youtube.com/@oferrceylon2274" class="social-icon-link bi-youtube"></a>
+                  </li>
+
+                  <!-- <li class="social-icon-item">
+                      <a href="#" class="social-icon-link bi-whatsapp"></a>
+                  </li> -->
+              </ul>
+          </div>
+
+      </div>
+  </div>
+</header>
+
+<nav class="navbar navbar-expand-lg bg-light shadow-lg">
+  <div class="container">
+      <a class="navbar-brand" href="index.html">
+          <img src="images/logo.png" class="logo  img-fluid" alt="Kind Heart Charity">
+          <!-- <span>
+              Kind Heart Charity
+              <small>Non-profit Organization</small>
+          </span> -->
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                  <a class="nav-link" href="./index.html">Home</a>
+              </li>
+
+              <li class="nav-item">
+                  <a class="nav-link" href="./about-us.html">About</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                  <a class="nav-link" href="./gallery.html">Gallery</a>                
+              </li>
+
+              <li class="nav-item">
+                  <!-- <a class="nav-link click-scroll" href="#section_3">Causes</a> -->
+                  <a class="nav-link" href="./what-we-do.html">What We Do</a>
+              </li>                    
+
+              <li class="nav-item">
+                  <!-- <a class="nav-link click-scroll" href="#section_4">Volunteer</a> -->
+                  <a class="nav-link " href="#">Volunteer</a>
+              </li>
+
+              <!-- <li class="nav-item dropdown">
+                  <a class="nav-link click-scroll dropdown-toggle" href="#section_5"
+                      id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">Blogs</a>
+
+                  <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">Blog 1</a></li>
+
+                      <li><a class="dropdown-item" href="#">Blog 2</a></li>
+                  </ul>
+              </li> -->
+
+              <li class="nav-item">
+                  <!-- <a class="nav-link click-scroll" href="#section_6">Contact</a> -->
+                  <a class="nav-link " href="./cases.html">Reports</a>
+              </li>
+
+              <li class="nav-item">
+                  <!-- <a class="nav-link click-scroll" href="#section_6">Contact</a> -->
+                  <a class="nav-link " href="./contact.html">Contact</a>
+              </li>
+
+              <!-- <li class="nav-item ms-3">
+                  <a class="nav-link custom-btn custom-border-btn btn" href="donate.html">Donate</a>
+              </li> -->
+          </ul>
+      </div>
+  </div>
+</nav>
+<!-- ====================================================================================Header Ends======================================================================================-->
+
+<style>
+.cases {
+  background: aliceblue !important;
+  box-sizing: border-box;
+  padding: 50px;
+}
+
+.cases .blog-container {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: hsla(0, 0, 0, .2) 0 4px 2px -2px;
+  font-weight: 100;
+  margin: 48px auto;
+  width: 80%;
+  @media screen and (min-width: 480px) {
+    width: 80%;
+  }
+  @media screen and (min-width: 767px) {
+    width: 80%;
+  }
+  @media screen and (min-width: 959px) {
+    width: 80%;
+  }
+}
+.cases .blog-container a {
+  color: #4d4dff;
+  text-decoration: none;
+  transition: .25s ease;
+  &:hover {
+    border-color: #ff4d4d;
+    color: #ff4d4d;
+  }
+}
+
+
+.cases .blog-cover {
+  background: url("./images/cases/case1/cover.jpg");
+  background-size: cover;
+  border-radius: 5px 5px 0 0;
+  height: 15rem;
+  box-shadow: inset hsla(0, 0, 0, .2) 0 64px 64px 16px;
+}
+.cases .blog-cover2 {
+  background: url("./images/cases/sample.png");
+  background-size: cover;
+  border-radius: 5px 5px 0 0;
+  height: 15rem;
+  box-shadow: inset hsla(0, 0, 0, .2) 0 64px 64px 16px;
+}
+
+.cases .blog-cover3 {
+  background: url("./images/cases/case3/Picture2.jpg");
+  background-size: cover;
+  border-radius: 5px 5px 0 0;
+  height: 15rem;
+  box-shadow: inset hsla(0, 0, 0, .2) 0 64px 64px 16px;
+}
+.cases .blog-body {
+  margin: 0 auto;
+  width: 80%;
+}
+.cases .video-body {
+  height: 100%;
+  width: 100%;
+}
+.cases .blog-title h1 a {
+  color: #333;
+  font-weight: 100;
+}
+.cases .blog-summary p {
+  color: lighten(#333, 10%);
+}
+.cases .blog-tags ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
+  justify-content: center;
+}
+.cases .blog-tags li + li {
+  margin-left: .5rem;
+}
+.cases .blog-tags a {
+  border: 1px solid lighten(#333, 40%);
+  border-radius: 3px;
+  color: lighten(#333, 40%);
+  font-size: .75rem;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  letter-spacing: 1px;
+  padding: 0 .5rem;
+  text-align: center;
+  text-transform: uppercase;
+  white-space: nowrap;
+  width: 5rem;
+}
+
+
+.cases .blog-footer {
+  border-top: 1px solid lighten(#333, 70%);
+  margin: 0 auto;
+  padding-bottom: .125rem;
+  width: 80%;
+}
+.cases .blog-footer ul {
+  list-style: none;
+  display: flex;
+  flex: row wrap;
+  justify-content: flex-end;
+  padding-left: 0;
+}
+.cases .blog-footer li:first-child {
+  margin-right: auto;
+}
+.cases .blog-footer li + li {
+  margin-left: .5rem;
+}
+.cases .blog-footer li {
+  color: lighten(#333, 40%);
+  font-size: .75rem;
+  height: 1.5rem;
+  letter-spacing: 1px;
+  line-height: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  white-space: nowrap;
+  & a {
+    color: lighten(#333, 40%);
+  }
+}
+.cases .comments {
+  margin-right: 1rem;
+}
+.cases .published-date {
+  border: 1px solid lighten(#333, 40%);
+  border-radius: 3px;
+  padding: 0 .5rem;
+}
+.cases .numero {
+  position: relative;
+  top: -0.5rem;
+}
+
+
+.cases .icon-star,
+.cases .icon-bubble {
+  fill: lighten(#333, 40%);
+  height:24px;
+  margin-right: .5rem;
+  transition: .25s ease;
+  width: 24px;
+  &:hover {
+    fill: #ff4d4d;
+  }
+}
+.cases p {
+    text-align: justify;
+}
+.blog-tags img {
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+}
+.cases li p {
+    text-align: center;
+}
+.blog-title h1 {
+  padding-top: 50px;
+}
+h3 {
+  padding-top: 50px;
+}
+</style>
+<div class="cases">
+    <!-- ========================================================Case 1=================================================================== -->
+    <div class="blog-container">
+      <div class="blog-header">
+        <div class="blog-cover" >
+          <!-- <div class="blog-author">
+            <h3>Russ Beye</h3>
+          </div> -->
+        </div>
+      </div>
+      <div class="blog-body">
+        <div class="blog-title">
+          <h1><a href="#">Shelter</a></h1>
+        </div>
+        <div class="blog-summary">
+          <p> <i>Age 27 yrs, Chettypulam, Velanai, Jaffna District. Married with two children. Her experiences in life are shared as follows:</i></p>
+            <p>“My husband fled to India in 1990 with his mother and sister.  They lived in the Mandapam Refugee Camp in Tamil Nadu 
+                State for a number of years. They returned to Sri Lanka in 2003 during the ceasefire agreement between the government 
+                and the L.T.T.E. I married  Balamurugan in 2004, and we were blessed with a son. When hostilities resumed inn 2006 we 
+                were forced to flee to India and were placed once again in the Mandapam Refugee Camp where our child was born. </p>
+            <p>When the war ended we returned to Sri Lanka in February 2011 and resettled on Velanai Island near Jaffna. But we didn’t 
+                have a home - we were living in a hut which belonged to our relatives.   Fortunately, my mother-in-law gave us a small 
+                plot of land and we built a temporary hut there. My husband is an experienced fisherman but he doesn't have the proper 
+                equipment to fish. As a result, he works as a day labourer.  My mother-in-law makes mats from Palmyra leaves.  Sadly 
+                the income we make is still insufficient to cover all our living costs. Our children find it very difficult to study 
+                because we are afraid of using the kerosene lamp at night for fear of starting a fire in our small house.  It is difficult 
+                to cook as well because there are many of us and at the same time there is also the fear of poisonous insects.</p>
+            <p>We are happy that the OfERR Ceylon Jaffna Office came forward to help us by providing a new home and a sewing 
+                machine with all the accessories.  This will allow me to sew items which I can sell to earn additional income." </p>
+        </div>
+        <div class="blog-tags">
+          <ul>
+            <li><img src="./images/cases/case1/cases1.jpg" alt=""><p>Old Shelter</p></li>
+            <li><img src="./images/cases/case1/cases1(1).jpg" alt=""><p>New Shelter</p></li>
+            <li><img src="./images/cases/case1/cases1(2).jpg" alt=""><p>Presentation of a sewing machine to Amala B. by OfERR President, 
+                Ms. Sooriyakumary, and donor John Ball, Act for Peace, Australian Council of Churches</p></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="blog-footer">
+        <ul>
+          <li class="published-date">05-04-2013</li>
+          <!-- <li class="comments"><a href="#"><svg class="icon-bubble"><use xlink:href="#icon-bubble"></use></svg><span class="numero">4</span></a></li>
+          <li class="shares"><a href="#"><svg class="icon-star"><use xlink:href="#icon-star"></use></svg><span class="numero">1</span></a></li> -->
+        </ul>
+      </div>
+    </div>
+
+
+    <!-- ========================================================Case 2=================================================================== -->
+
+    <div class="blog-container">
+        <div class="blog-header">
+          <div class="blog-cover2">
+            <!-- <div class="blog-author">
+              <h3>Russ Beye</h3>
+            </div> -->
+          </div>
+        </div>
+        <div class="blog-body">
+          <div class="blog-title">
+            <h1><a href="#">Empowering Displaced Individuals through Enhanced Documentation Support</a></h1>
+          </div>
+          <div class="blog-summary">
+            <p>Displaced populations often encounter significant challenges related to identity verification and documentation. 
+              The Organization for Eelam Refugees Rehabilitation (OfERR), along with its various programs, primarily focuses on 
+              addressing this critical issue. By facilitating the acquisition of essential documents, OfERR empowers displaced 
+              individuals to pursue education and employment opportunities.</p>
+            <p>A compelling case study exemplifies the impact of OfERR’s efforts. Mr. Kesavarajan, born in India in 1987, returned 
+              to Sri Lanka in 1993 with the assistance of the United Nations High Commissioner for Refugees (UNHCR) ferry service. 
+              Then he married and had two girl children.  Unfortunately, Mr. Kesavarajan lost both his driver’s license and citizenship 
+              card, since his work majorly involves driving, he couldn’t able to continue his work. </p>
+            <p>After some days only he realized to get his certificates until then he didn’t care about his lost documents.  
+              Then he approached Grama Niladhari, since he was born in India, they said that only with the Sri Lankan consular 
+              birth certificate and citizenship certificate he can further proceed.  He was stumbled and confused.</p>
+            <p>Mr. Kesavarajan came to know that OfERR conducted mobile documentation camps. He then approached the organization, 
+              where he received comprehensive guidance throughout the process. Ultimately, he obtained his citizenship card and 
+              driver’s license, with financial support from OfERR.</p>
+            <p>Now equipped with the necessary documents, Mr. Kesavarajan can continue his work confidently. Moreover, he is actively 
+              working with OfERR to secure essential documents for his children. His success underscores the invaluable role played by 
+              OfERR in ensuring displaced individuals’ access to essential documentation. Mr. Kesavarajan expresses enduring gratitude 
+              for the unwavering support of OfERR. </p>
+          </div>
+          <div class="blog-tags">
+            <ul>
+              <!-- <li><img src="./images/cases/sample.png" alt=""><p>Image 1</p></li>
+              <li><img src="./images/cases/sample.png" alt=""><p>Image 2</p></li>
+              <li><img src="./images/cases/sample.png" alt=""><p>Image 3</p></li> -->
+            </ul>
+          </div>
+        </div>
+        
+        <div class="blog-footer">
+          <ul>
+            <li class="published-date">05-04-2013</li>
+            <!-- <li class="comments"><a href="#"><svg class="icon-bubble"><use xlink:href="#icon-bubble"></use></svg><span class="numero">4</span></a></li>
+            <li class="shares"><a href="#"><svg class="icon-star"><use xlink:href="#icon-star"></use></svg><span class="numero">1</span></a></li> -->
+          </ul>
+        </div>
+      </div>
+
+    <!-- ========================================================Case 3=================================================================== -->
+    <div class="blog-container">
+      <div class="blog-header">
+        <div class="blog-cover3" >
+          <!-- <div class="blog-author">
+            <h3>Russ Beye</h3>
+          </div> -->
+        </div>
+      </div>
+      <div class="blog-body">
+        <div class="blog-title">
+          <h1><a href="#">MRS. RAVEENDRAN MERY KONSABETH</a></h1>
+        </div>
+        <div class="blog-summary">
+          <p> <i> Age 48 yrs from Allaippiddy, Velanai Island (off the coast of the Jaffna peninsula). Married with three children;  
+            engaged in candle production.  She shares her life experience with us:</i></p>
+            <p>“In 1990 we were displaced due to the war.  My mother sent me to India with my sister’s family for safety reasons. 
+              I stayed at the Viruthachalam Refugee Camp where I had the opportunity of working with OfERR INDIA as a health worker 
+              from 1991 to 1995. When we returned to Sri Lanka in 1995 we were assigned to the Vavuniya refugee camp.  Raveendran, 
+              who I later married, was also living in the same camp. We now have three children. Initially we were able to manage 
+              financially but later, when the children started growing up, it was difficult for us to meet our daily expenses. My 
+              husband went to Doha for employment as a minor worker. In 2006 hostilities began again and we once again had to flee 
+              to India.  We stayed in the Valaja Camp which was located in the Vellore district.  </p>
+            <p>My husband did not accompany us as he was still working in Doha.  He tried to move to another country but he was not 
+              successful.  We eventually lost touch with him but with the help of the UNHCR we were able to track him down.  During 
+              this period I was diagnosed with cancer and had to undergo surgery.</p>
+            <p>In the refugee camp I learnt how to make candles and sandal sticks.  We came back to Sri Lanka to live on our own soil 
+              and I started making candles to earn extra income which I could put toward my children's needs. </p>
+            <p>My house was old and unlivable in the rainy season.  OfERR Ceylon came to our rescue and repaired the shelter. They 
+              also agreed to provide me with new moulds for making larger quantities of candles to enhance our livelihood. I am living 
+              a better life now and am very grateful to  OfERR for all their help."</p>
+        </div>
+        <div class="blog-tags">
+          <ul>
+            <li><img src="./images/cases/case3/Picture1.jpg" alt=""><p>Old House</p></li>
+            <li><img src="./images/cases/case3/Picture2.jpg" alt=""><p>New House</p></li>
+            <li><img src="./images/cases/case3/Picture3.jpg" alt=""><p>Candle-making process</p></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="blog-footer">
+        <ul>
+          <!-- <li class="published-date">05-04-2013</li> -->
+          <!-- <li class="comments"><a href="#"><svg class="icon-bubble"><use xlink:href="#icon-bubble"></use></svg><span class="numero">4</span></a></li>
+          <li class="shares"><a href="#"><svg class="icon-star"><use xlink:href="#icon-star"></use></svg><span class="numero">1</span></a></li> -->
+        </ul>
+      </div>
+    </div>
+
+    <!-- ========================================================Case 4=================================================================== -->
+    <div class="blog-container">
+      <div class="blog-header">
+        <div class="blog-cover4" >
+          <!-- <div class="blog-author">
+            <h3>Russ Beye</h3>
+          </div> -->
+        </div>
+      </div>
+      <div class="blog-body">
+        <div class="blog-title">
+          <h1><a href="#">Success Stories – Lighting up the Lives of People</a></h1>
+        </div>
+        <div class="blog-summary">
+          <p>Mrs Suwrnan Nilanai left Sri Lanka in 1990 due to the unrealistic situation and took shelter in various 
+            refugee camps in TamilNadu.In 2015 she married to Mr.Sewarnan and returns to their mother land in 2017.
+            When she was in South India she went for a sewing training and worked as a sewing teacher for six months. 
+            After she returned from south India she joined as a member of Ananithivu South Women Rural development Society 
+            and became a sewing teacher. Her Husband involved farming in their village. And they blessed with Babyboy.</p>
+            <p>OfERR Jaffna supported her husband to get citizenship, at that time Nilanini requested to get sewing machine 
+              to start tailoring at home. By considering her request and her skills OfERR given tools and equipment for her 
+              to start her carrier in 2021 June. At the same time OfERR requested her to consider whenever she gets 
+              opportunities to establish her tailoring activities, consider to provide employment for a woman from vulnerable 
+              families. OfERR organized for her to get advance skill/ Market strategies technical trainings, Business 
+              development coaching and mentoring training.</p>
+            <p>Now she has established her tailoring business and given employment opportunity for five women from vulnerable 
+              families, under her supervision they have taken orders from various places such as orders to stich uniforms from 
+              preschools and schools. Their quality stitching and customer service grabbing more customers and getting number 
+              of orders.</p>
+            <p>Nilanai opened boutique on a main road of Analithivu, and hanged all their stitched cloths. If the country 
+              situation become stable, she will have more orders locally as well from abroad. The Divisional Office of Kayts 
+              and the Women Rural Development Society honored her for her initiatives and the support she is giving to the 
+              village of Analithivu South.</p>
+        </div>
+        <h3>Child Protection and Case Management</h3>
+        <p>My name is Sumathi age 35. I have received various trainings such as Protection training, gender equality and 
+          Sexual gender-based violence prevention training, child protection and health related training through OfERR. 
+          I have been a member of the Welcome group formed by OfERR in my village of Kumpurupitiy to welcome returnees and 
+          provide them with the necessary registration, Residencial arrangements, and enrollment of children in schools. 
+          OfERR then looked after my services and recruited me as a counselor to identify the needs of returnees in the 
+          Kuchchaveli area, such as collecting databases and working with relevant government officials on the protection 
+          of women and children. Together with the Women Development Officer, Child Protection Officer and Grama Sevakar 
+          of the Kuchchaveli Divisional Secretariat, I have been conducting SLRRRP3 project training with Government officials 
+          and OfERR Officers to provide awareness training to the people of our area.</p>
+        <p>In this situation, a 14-year-old returnee girl from our area and immediately took action to protect the girl when 
+          she heard the news that a young man from a neighboring village had tried to abuse her. The matter was immediately 
+          reported to the Grama Nilathaari through Kuchchaveli Divisional Child Protection Officer and the team including the
+           Health Division took charge of the girl. It is noteworthy that the girl's mother has gone to the Middle East as a 
+           housemaid. The incident took place when the girl's father, who was in the care of her father, went to work. We 
+           continue to maintain secrecy and take remedial action in this regard. Due to the absence of the mother, we have 
+           handed over the responsibility of the girl's Mother’s Sister. The girl's father has also been provided with goat 
+           rearing assistance as a livelihood assistance. The girl is under our constant surveillance and protection from his 
+           Aunt. She has been safe at home since school was held because of the Covid 19 period. In the safety of the girl, 
+           the photo, name and family details are not mentioned here.</p>
+
+      <h3>Well Construction in Trincomalee</h3>
+      <p>The Kuchchaveli Divisional Secretary provided permanent housing with government land for 13 returnees in the village 
+        of Iranaikeni in the Kuchchaveli Divisional Secretariat Division of the Trincomalee District in response to the OfERR’s 
+        involvement in several consultations with the Government to reintegrate the returnees. The need for water to resettle 
+        55 people from these 13 families was paramount, for which our SLRRRP 3 project was helpful. Through this project a 
+        Common dug well was constructed and handed over by the Divisional Secretary for public use. A Water Conservation 
+        Committee has also been set up to monitor water hygiene and maintenance of the returning public who hand over the well. 
+        Those who received this assistance received safe water without any shortage of water.</p>
+      <h3>Showed the way; We live happily - I am Balakrishnan Mahadevan, Trincomalee</h3>
+        <p>My family was also affected by the 1990 war. My parents and I took refuge in India and lived in the Thiruvadavoor 
+          refugee camp. Many years passed and I got married to a woman named Krishnaveni in 2007 and lived with three children. 
+          I decided to return to the country in view of the future of the children and returned with my family to my wife's 
+          sister's house in Trincomalee 2018 with the help of UNHCR. I made my registrations at OFERR and then they found my 
+          needs and took the Consular Birth Certificate and Sri Lankan Citizenship Certificate for my children. Having received 
+          these documents there is no impediment for my children to continue their education. Not only that they provided school 
+          equipment for my children and met their children's educational needs. I confirmed to the government that there was no 
+          land house under the guidance of OfERR.  As a result of registering with the Divisional Secretariat of Town & Gravest, 
+          in 2019 the government provided 15 parch of land in the village of Iluppakulam, Trincomalee. Following this, a housing 
+          project worth Rs. 750,000 / - was obtained by the National Housing development Authority. Due to the political change 
+          in the country during that period, the foundation work on the house was suspended on the eve of completion. “As the 
+          deity one went to worship came to meet one cross wise” Like this proverb, OfERR came across and helped me who was in 
+          despair of being distracted. OfERR Ceylon provided Livelihood support for Carpentry tools worth of 1 Lakes. With that 
+          help, I set up a workshop on the land of another relative and started a business. Although I have a lot of plans to 
+          raise goats and chickens from the income I get from that business, I have given up the plan of doing other businesses 
+          where we already have a relative home without a home. Although the relatives' house, how many days they will stay with 
+          us from time to time there are minor disagreements. When we went to the OfERR Ceylon and told them our situation we could 
+          not bear these. They talked to the Divisional Secretary and took permission to set up a temporary Shelter and permanent 
+          Toilet on the land given to us by the government. I am currently doing my carpentry business and raising chickens on my 
+          land.  “Live happily with my family and safely in my own home on my own land in my own Country.” I don’t have to depend 
+          on anyone for family expenses and children’s education because I currently have two careers. With that income I added the 
+          children to the evening class. I also showed money to pick up the electrical connection to the house. Now we eat three 
+          meals a day to our satisfaction. Next, I am saving a little of the income and making arrangements for goat rearing. I 
+          will plan with income... I will progress in the economy. I will raise the quality of education of the children.</p>
+
+        <h3>Nothing is impossible if tried says – Thevarasa Pradeepan</h3>
+          <p>My name is Thevarasa Pradeepan. Kumburupitiya is a permanent resident of Kuchveli Divisional Secretariat area 
+            in Trincomalee district. When I was nine years old, I went to India by boat with my mother, father and 2 brothers 
+            by boat from Mannar on 02.05.1990 due to the ethnic riots in my homeland. They took us to Kadayanallur refugee camp 
+            in Tenkasi district and registered us there. During my stay in the camp I was educated up to grade 12 as well as 
+            going to the daily wages available after the completion of school studies. Thus, while my life was going on, I fell 
+            in love with Santhanam Devarani, a resident of my camp in Trincomalee Kanniya village, on 06.07.2000. Both of our 
+            daughters studied up to grade 10 in India. My parents and siblings returned to the country in 2011 after the war 
+            ended in 2009. Even after their return, I had to live in India due to the circumstances in which I had to live. 
+            During my time there I went to work for wages and met my family needs. But every minute I lived with the stigma of 
+            being a refugee. When the thought of returning to the country comes, so does the fear of how we will go and live there. 
+            So I will forget the idea of returning to the country. In the end I made an enthusiastic decision that after 27 years 
+            of refugee life, if my life is over, my main duty is to love my two children so that they can live peacefully in their 
+            motherland. Having lived in a 10 x 10 size house for so many years without it alone India would not be my mother country. 
+            How long does it take for someone else to put on a shirt? If it's here, the children will end up getting married here. 
+            If so, it will be here for generations. Also my relatives in Sri Lanka kept saying that the situation here is good 
+            and you should return to the country. Following this, with the help of India OfERR, we registered our marriage and 
+            obtained a birth certificate for our children in Embassy of Sri Lanka. Then with the help of UNHCR we returned to my 
+            home village on 24.10.2017. A welcome group member assisting to registration arrangements. At the Divisional Secretariat, 
+            we were treated with respect as returnee. Since I had 20 perches of land, I got Rs. 33000.00 for temporary hut provided 
+            by the Ministry of Resettlement. We had set up a temporary house with money provided by the Ministry of Resettlement 
+            and a travel allowance from UNHCR. In addition, the Divisional Secretariat had provided a toilet worth Rs. 54000.00. 
+            I took my records to OfERR and they looked at my documents and took steps to get the children citizenship. They also 
+            corrected errors in the documents. Citizenship has been delayed for two years now due to the country's Covid 19 epidemic.</p>
+          <p>We got a permanent house worth Rs. 1000000.00 in 2019 under the Government Housing Scheme for Returnees. We 
+            finished building it and we are currently living there. By the time we returned to the country employment was 
+            low. I am currently working. I am working in a farm with a salary of Rs.30000.00 per month. I was applying for a 
+            livelihood for poultry at OfERR. They also came to my house and examined my condition and paid Rs. 100000.00 worth 
+            of Backyard chickens were also provided. I did better maintenance because I had prior experience working on the farm 
+            and now it is starting to lay eggs. I bought more chickens and goats because I wanted to make proper use of the help 
+            they gave me. I am currently making arrangements to do integrated farming. I'm currently worried about telling my 
+            friends in India on the phone where they might have gone in the economy if they had returned to the country earlier. 
+            In the current state of mind we are eating and sleeping peacefully in my own home in my mother country... 
+            This happiness does not exist in refugee life…</p>
+      </div>
+    <div class="blog-footer">
+        <ul>
+          <!-- <li class="published-date">05-04-2013</li> -->
+        </ul>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <div class="blog-container">
+      
+      <div class="blog-header">
+        <div class="blog-author--no-cover">
+            <h3>Russ Beye</h3>
+        </div>
+      </div>
+    
+      <div class="blog-body">
+        <div class="blog-title">
+          <h1><a href="#">This Post Has No Cover Image</a></h1>
+        </div>
+        <div class="blog-summary">
+          <p>Here is an example of a post without a cover image. You don't always have to have a cover image. In fact, leaving them out from time to time and disrupt the predictive flow and make the overall design more interesting. Something to think about.</p>
+        </div>
+        <div class="blog-tags">
+          <ul>
+            <li><a href="#">design</a></li>
+            <li><a href="#">web dev</a></li>
+            <li><a href="#">css</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="blog-footer">
+        <ul>
+          <li class="published-date">12 days ago</li>
+          <li class="comments"><a href="#"><svg class="icon-bubble"><use xlink:href="#icon-bubble"></use></svg><span class="numero">8</span></a></li>
+          <li class="shares"><a href="#"><svg class="icon-star"><use xlink:href="#icon-star"></use></svg><span class="numero">3</span></a></li>
+        </ul>
+      </div>
+    
+    </div>
+    
+    <div class="blog-container">
+      
+      <div class="blog-header">
+        <div class="blog-author--no-cover">
+            <h3>Russ Beye</h3>
+        </div>
+      </div>
+    
+      <div class="blog-body">
+          <video class="video-body" controls poster="http://artbees.net/themes/jupiter-demo/wp-content/uploads/2013/10/home-vid-img.jpg" id="bgvid">
+            <source src="http://artbees.net/themes/jupiter-demo/wp-content/uploads/2013/10/homepage.webm" type="video/webm">
+            <source src="http://artbees.net/themes/jupiter-demo/wp-content/uploads/2013/10/shutterstock_v3702740_4.m4v" type="video/mp4">
+          </video>
+        <div class="blog-title">
+          <h1><a href="#">A Video Based Blog Post</a></h1>
+        </div>
+        <div class="blog-tags">
+          <ul>
+            <li><a href="#">video</a></li>
+            <li><a href="#">embed</a></li>
+            <li><a href="#">what</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="blog-footer">
+        <ul>
+          <li class="published-date">1 month ago</li>
+          <li class="comments"><a href="#"><svg class="icon-bubble"><use xlink:href="#icon-bubble"></use></svg><span class="numero">12</span></a></li>
+          <li class="shares"><a href="#"><svg class="icon-star"><use xlink:href="#icon-star"></use></svg><span class="numero">6</span></a></li>
+        </ul>
+      </div>
+    
+    </div> -->
+    
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ===========================================================================Footer Starts=================================================================== -->
+
+<footer class="site-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-12 mb-4">
+                <img src="images/logo.png" class="logo footer-logo img-fluid" alt="">
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12 mb-4">
+                <h5 class="site-footer-title mb-3" style="color:#5bc1ac !important;">Quick Links</h5>
+
+                <ul class="footer-menu">
+                    <li class="footer-menu-item"><a href="#" class="footer-menu-link">Our Story</a></li>
+
+                    <li class="footer-menu-item"><a href="#" class="footer-menu-link">Newsroom</a></li>
+
+                    <li class="footer-menu-item"><a href="#" class="footer-menu-link">Causes</a></li>
+
+                    <li class="footer-menu-item"><a href="./gallery.html" class="footer-menu-link">Gallery</a></li>
+
+                    <li class="footer-menu-item"><a href="#" class="footer-menu-link">Become a volunteer</a></li>
+
+                    <li class="footer-menu-item"><a href="#" class="footer-menu-link">Partner with us</a></li>
+                </ul>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12 mx-auto">
+                <h5 class="site-footer-title mb-3" style="color:#5bc1ac !important;">Contact Infomation</h5>
+
+                <p class="text-white d-flex mb-2">
+                    <i class="bi-telephone me-2"></i>
+
+                    <a href="tel: 123-456-7890" class="site-footer-link">
+                        123-456-7890
+                    </a>
+                </p>
+
+                <p class="text-white d-flex">
+                    <i class="bi-envelope me-2"></i>
+
+                    <a href="mailto:oferrceylon@gmail.com" class="site-footer-link">
+                        oferrceylon@gmail.com
+                    </a>
+                </p>
+
+                <p class="text-white d-flex mt-3">
+                    <i class="bi-geo-alt me-2"></i>
+                    No 2B, Jeyawardena Place, Off-Hill Street, Dehiwala
+                </p>
+
+                <a href="https://maps.app.goo.gl/eAr6LNYT9wG6C4so9" class="custom-btn btn mt-3" target="_blank">Get Direction</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="site-footer-bottom">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-6 col-md-7 col-12">
+                    <p class="copyright-text mb-0">Copyright © 2024 <a href="#">OfERR</a> - Organisation for Eelam Refugees, Rehabilitation
+                        <!-- Design: <a href="https://templatemo.com" target="_blank">TemplateMo</a><br>Distribution:
+                        <a href="https://themewagon.com">ThemeWagon</a> -->
+                    </p>
+                </div>
+
+                <div class="col-lg-6 col-md-5 col-12 d-flex justify-content-center align-items-center mx-auto">
+                    <ul class="social-icon">
+                        <li class="social-icon-item">
+                            <a href="https://twitter.com/OfERRCeylon" class="social-icon-link bi-twitter"></a>
+                        </li>
+
+                        <li class="social-icon-item">
+                            <a href="https://www.facebook.com/sinnathamby.sooriyakumary" class="social-icon-link bi-facebook"></a>
+                        </li>
+
+                        <li class="social-icon-item">
+                            <a href="https://www.youtube.com/@oferrceylon2274" class="social-icon-link bi-youtube"></a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- ===========================================================================Footer Ends=================================================================== -->
+<script>
+    function first(){
+        document.getElementById("main-video").href="./images/videos/OfERR_s Story Animation.mp4";
+        document.getElementById("main-image").src="./images/videos/OfERR_Story.png";
+    }
+    function second(){
+        document.getElementById("main-video").href="https://youtu.be/qEc_-SsYeK0";
+        document.getElementById("main-image").src="./images/videos/ramajeyam.png";
+    }
+    function three(){
+        document.getElementById("main-video").href="https://youtu.be/IFfsGZAXp9M";
+        document.getElementById("main-image").src="./images/videos/Gov-job-in-srilanka.png";
+    }
+    function four(){
+        document.getElementById("main-video").href="https://youtu.be/NN-OGZSzVlY";
+        document.getElementById("main-image").src="./images/videos/English.png";
+    }
+    function five(){
+        document.getElementById("main-video").href="https://youtu.be/mSsmplSseHs";
+        document.getElementById("main-image").src="./images/videos/Ketheeswaran-Prashnthini.png";
+    }
+    function six(){
+        document.getElementById("main-video").href="https://youtu.be/iQrIfUMXWgw";
+        document.getElementById("main-image").src="./images/videos/De-mining.png";
+    }
+    function seven(){
+        document.getElementById("main-video").href="https://youtu.be/HuXLw1R3Fx4";
+        document.getElementById("main-image").src="./images/videos/Life-of-retunies-1.png";
+    }
+    function eight(){
+        document.getElementById("main-video").href="https://youtu.be/iT4WyNutBSM";
+        document.getElementById("main-image").src="./images/videos/Life-of-retunies-2.png";
+    }
+</script>
+<script>
+    var swiper = new Swiper('.blog-slider', {
+      spaceBetween: 30,
+      effect: 'fade',
+      loop: true,
+      mousewheel: {
+        invert: false,
+      },
+      // autoHeight: true,
+      pagination: {
+        el: '.blog-slider__pagination',
+        clickable: true,
+      }
+    });
+</script>
+    <!-- JAVASCRIPT FILES -->
+    <!-- <script src="js/protection.js"></script> -->
+    <script type="text/javascript" src="//use.typekit.net/wtt0gtr.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/click-scroll.js"></script>
+    <script src="js/counter.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>
